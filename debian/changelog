@@ -1,3 +1,11 @@
+pve-container (6.1.28+s390x1) trixie; urgency=medium
+
+  * s390x port, rebased onto 6.1.28:
+    - allow s390x containers (architecture s390x, ELF machine detection).
+    - setup: fall back to the host architecture.
+
+ -- Yvan Janssens <yvanj@cyber.gent>  Wed, 25 Nov 2026 16:07:32 +0000
+
 pve-container (6.1.28) trixie; urgency=medium
 
   * fix starting a container that has a network device without a MAC
